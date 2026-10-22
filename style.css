@@ -137,3 +137,24 @@ img{max-width:100%}
 .corps figure.video{width:100%;max-width:540px;margin:26px auto}
 .cadre-video{position:relative;width:100%;aspect-ratio:9/16;border-radius:14px;overflow:hidden;background:#211f25}
 .cadre-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+/* Glossaire */
+.glossaire-page h1{font-size:42px;margin:6px 0 14px}
+.glossaire-page .chapeau{font-size:18px;color:var(--texte);margin:0 0 20px}
+.lettres{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px;position:sticky;top:0;background:var(--fond);padding:10px 0;z-index:1}
+.lettres a{min-width:44px;min-height:44px;display:inline-flex;align-items:center;justify-content:center;border-radius:10px;background:#fff;border:1px solid var(--ligne);font-weight:600;text-decoration:none}
+.glossaire-page h2{font-size:26px;margin:30px 0 10px;color:var(--prune);scroll-margin-top:72px}
+.glossaire{margin:0}
+.entree{background:#fff;border:1px solid var(--ligne);border-radius:16px;padding:16px 20px;margin:0 0 12px;scroll-margin-top:72px}
+.entree:target{border-color:var(--rose-fort);box-shadow:0 0 0 3px var(--rose-doux)}
+.entree dt{font-family:Poppins,system-ui,sans-serif;font-weight:700;font-size:20px;margin-bottom:6px}
+.entree dd{margin:0}
+.entree dd p{margin:0 0 8px;font-size:17px;line-height:1.6;color:var(--texte)}
+.entree .vu-dans{font-size:14px;color:var(--gris);margin:0}
+.entree .vu-dans a{color:var(--rose-fort)}
+.mot-glossaire{text-decoration:none;color:inherit;border-bottom:2px dotted var(--rose)}
+.mot-glossaire:hover{color:var(--rose-fort)}
+@media (max-width:720px){.glossaire-page h1{font-size:30px}}
+.vers-glossaire{font-size:15px;margin:-6px 0 18px}
+.encart-glossaire{display:flex;flex-direction:column;gap:6px;background:var(--rose-doux);border:1px solid var(--ligne);border-radius:18px;padding:22px 24px;color:var(--encre);text-decoration:none}
+.encart-glossaire b{font-family:Poppins,system-ui,sans-serif;font-size:22px}
+.encart-glossaire .surtitre{margin:0}
