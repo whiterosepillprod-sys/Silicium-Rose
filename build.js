@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const SORTIE = path.join(__dirname, 'dist');
-const A_COPIER = ['index.html', 'img'];
+const A_COPIER = ['index.html', 'style.css', 'img', 'articles', 'autrices'];
 
 fs.rmSync(SORTIE, { recursive: true, force: true });
 fs.mkdirSync(SORTIE, { recursive: true });
