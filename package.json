@@ -1,0 +1,13 @@
+{
+  "name": "silicium-rose",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site statique Silicium Rose (White Rose Lab)",
+  "scripts": {
+    "build": "node build.js",
+    "start": "node serveur.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
