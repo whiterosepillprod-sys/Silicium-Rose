@@ -174,3 +174,12 @@ table.catalogue th,table.catalogue td{padding:10px 12px;border-bottom:1px solid 
 table.catalogue th{background:var(--rose-doux);color:var(--prune);font-weight:600;font-size:13px}
 table.catalogue td small{display:block;color:var(--gris)}
 table.catalogue a{text-decoration:none}
+.corps a.zoom{display:block;cursor:zoom-in}
+.corps figure.large{width:min(1100px,calc(100vw - 32px));margin-left:50%;transform:translateX(-50%)}
+#loupe{position:fixed;inset:0;z-index:50;background:rgba(20,18,22,.94);display:flex;flex-direction:column}
+#loupe[hidden]{display:none}
+.loupe-cadre{flex:1;display:flex;overflow:auto;min-height:0}
+#loupe img{margin:auto;max-width:96vw;max-height:calc(100vh - 70px);cursor:zoom-in;display:block}
+#loupe.reel img{max-width:none;max-height:none;cursor:zoom-out}
+.loupe-fermer{position:absolute;top:10px;right:14px;z-index:2;width:44px;height:44px;border-radius:50%;border:0;background:rgba(255,255,255,.15);color:#fff;font-size:28px;line-height:1;cursor:pointer}
+.loupe-aide{margin:0;padding:10px 16px 14px;text-align:center;color:#d9d2d6;font-size:14px}
