@@ -183,3 +183,7 @@ table.catalogue a{text-decoration:none}
 #loupe.reel img{max-width:none;max-height:none;cursor:zoom-out}
 .loupe-fermer{position:absolute;top:10px;right:14px;z-index:2;width:44px;height:44px;border-radius:50%;border:0;background:rgba(255,255,255,.15);color:#fff;font-size:28px;line-height:1;cursor:pointer}
 .loupe-aide{margin:0;padding:10px 16px 14px;text-align:center;color:#d9d2d6;font-size:14px}
+.vignette-yt{position:relative;display:block;border-radius:14px;overflow:hidden;background:#211f25}
+.vignette-yt img{display:block;width:100%;border:0;opacity:.85}
+.vignette-yt .voir-yt{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:var(--rose-fort);color:#fff;font-weight:600;padding:12px 18px;border-radius:999px;white-space:nowrap;min-height:44px;display:flex;align-items:center}
+.vignette-yt:hover img{opacity:1}
