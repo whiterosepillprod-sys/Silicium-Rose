@@ -33,6 +33,7 @@ img{max-width:100%}
 .bas-marque em{color:var(--rose);font-style:normal}
 .bas-regles{flex:2 1 480px;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:18px;font-size:15px}
 .bas-regles b{display:block;color:#fff;margin-bottom:4px}
+.bas-mesure{margin:0;padding-bottom:20px;font-size:13px;color:#a99fab}
 
 /* Éléments communs */
 .etiquettes{display:flex;gap:8px;flex-wrap:wrap}

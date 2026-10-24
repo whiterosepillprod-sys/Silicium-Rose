@@ -15,7 +15,7 @@
 <link rel="icon" href="../img/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../style.css?v=75d8fb16">
+<link rel="stylesheet" href="../style.css?v=1724cf2c">
 </head>
 <body>
 <header class="haut">
@@ -116,6 +116,8 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!l.hidden)f
 <div><b>Tests maison</b>Nos images, nos chiffres, avec l'outil, la date et le coût.</div>
 </div>
 </div>
+<p class="cadre bas-mesure">Mesure d'audience anonyme, sans cookie.</p>
 </footer>
+<script>(function(){try{var u=new URLSearchParams(location.search),r='';try{r=document.referrer?new URL(document.referrer).hostname:''}catch(e){}if(r===location.hostname)r='';var d=new URLSearchParams({p:location.pathname,r:r,s:u.get('utm_source')||'',c:u.get('utm_content')||''});navigator.sendBeacon?navigator.sendBeacon('/stat.php',d):fetch('/stat.php',{method:'POST',body:d,keepalive:true})}catch(e){}})();</script>
 </body>
 </html>
